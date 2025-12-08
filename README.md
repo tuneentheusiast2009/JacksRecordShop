@@ -14,6 +14,20 @@ A responsive, interactive music discovery website built with vanilla HTML, CSS, 
 - CSS3
 - Vanilla JavaScript
 
+## Process & Documentation
+
+This project followed a structured 10-phase iterative development process documented in two key files:
+
+1. **Full Iterative Process**: See `AidanArrington - SuperFan Iterative Process Slides.pdf`
+   - Brainstorming three interactive concepts
+   - Design, wireframing, and responsive implementation
+   - JavaScript functionality and polish phases
+
+2. **UX Testing & Iteration**: See `AidanArrington - Phase 10A & 10B_ UX Testing + UI Iteration (SuperFan).pdf`
+   - Feedback from 4 users
+   - UI improvements based on identified trends
+   - Final refinements to shuffle function, borders, and audio behavior
+
 ## Key Iterations Based on User Feedback
 
 - Enhanced shuffle functionality
