@@ -1,2 +1,32 @@
 # JacksRecordShop
-Created with CodeSandbox
+A responsive, interactive music discovery website built with vanilla HTML, CSS, and JavaScript. This project was developed as part of a front-end web development learning experience, focusing on clean design, user interaction, and iterative UX improvement.
+
+## Features
+
+- **Interactive Song Display**: Click on album covers to play/pause song previews and view song details.
+- **Shuffle Function**: Randomizes the displayed songs with a dedicated shuffle button.
+- **Responsive Design**: Adapts layout for desktop and mobile viewing.
+- **UX-Tested Interface**: Iteratively refined based on feedback from multiple users to improve visual clarity and interaction.
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+## Key Iterations Based on User Feedback
+
+- Enhanced shuffle functionality
+- Improved background image quality
+- Adjusted borders on album covers for better readability
+- Resolved audio overlap issues with fade-out on click
+- Refined button placement and visual effects (shadows, hover states)
+
+## View the Project
+
+Live Demo: [Add your GitHub Pages or hosted link here]  
+GitHub Repository: [Add your repo link here]
+
+---
+
+*This project was developed as a hands-on introduction to front-end development, emphasizing iterative design, user testing, and pure JavaScript interactivity.*
