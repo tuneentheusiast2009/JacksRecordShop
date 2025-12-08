@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Jack's Record Shop" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <title>Jack's Record Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="top">
+      <div class="top-left orange">
+        <p class="fade-text">Jack's Record Shop</p>
+      </div>
+      <div class="top-right center-content">
+        <img
+          src="images/shuffle-badge.png"
+          onclick="chooseRandomAlbum()"
+          id="shuffle"
+        />
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="bottom-left">
+        <div class="row-top">
+          <div class="album center-content">
+            <img
+              src="images/covers/channelorange.jpg"
+              onclick="playSRK()"
+              id="album1"
+            />
+            <h2 id="albumtext1">
+              Super Rich Kids Frank Ocean, Earl Sweatshirt
+            </h2>
+          </div>
+          <div class="album center-content">
+            <img src="images/covers/n.png" onclick="playCaesar()" id="album2" />
+            <h2 id="albumtext2">
+              Disillusioned Daniel Caesar, serpentwithfeet
+            </h2>
+          </div>
+        </div>
+        <div class="row-bottom">
+          <div class="album2 center-content">
+            <img
+              src="images/covers/CMIYGLcov.jpg"
+              onclick="playWilshire()"
+              id="album3"
+            />
+            <h2 id="albumtext3">WILSHIRE Tyler, The Creator</h2>
+          </div>
+          <div class="album2 center-content">
+            <img
+              src="images/covers/gemini.png"
+              onclick="playWorld()"
+              id="album4"
+            />
+            <h2 id="albumtext4">Give You The World Steve Lacy</h2>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-right center-content">
+        <img src="images/play-badge.png" onclick="resetAll()" />
+      </div>
+    </div>
+    <audio src="images/audio/srk.mp3" id="ocean"></audio>
+    <audio src="images/audio/wilshire.mp3" id="wilshire"></audio>
+    <audio src="images/audio/disillusioned.mp3" id="caesar"></audio>
+    <audio src="images/audio/gytw.mp3" id="world"></audio>
+    <audio src="images/audio/holdon.mp3" id="internet"></audio>
+    <audio src="images/audio/Mother.mp3" id="mother"></audio>
+    <audio src="images/audio/walkonby.mp3" id="walk"></audio>
+    <audio src="images/audio/theweekend.mp3" id="sza"></audio>
+    <audio src="images/audio/Care.mp3" id="care"></audio>
+    <audio src="images/audio/wusyaname.mp3" id="name"></audio>
+    <audio src="images/audio/blowmyload (1).mp3" id="blow"></audio>
+    <audio src="images/audio/Alrighty.mp3" id="tpab"></audio>
+    <audio src="images/audio/dywb.mp3" id="worry"></audio>
+    <audio src="images/audio/Helmet.mp3" id="head"></audio>
+    <audio src="images/audio/superpowers.mp3" id="power"></audio>
+    <audio src="images/audio/wusyaname.mp3" id="name"></audio>
+    <audio src="images/audio/NERD.mp3" id="bobby"></audio>
+    <audio src="images/audio/Numbers.mp3" id="nolook"></audio>
+    <audio src="images/audio/gytw.mp3" id="world"></audio>
+    <audio src="images/audio/gytw.mp3" id="world"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>

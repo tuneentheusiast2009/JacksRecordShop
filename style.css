@@ -1,0 +1,227 @@
+/* Add filters: https://www.w3schools.com/cssref/css3_pr_filter.asp */
+/* Make your own favicon: https://favicon.io/ */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: block;
+  background-color: #ffffff7e;
+  background-image: url("images/vinyltb.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* build your layout */
+.top {
+  height: 15%;
+  width: 100%;
+  display: flex;
+}
+.bottom {
+  height: 85%;
+  width: 100%;
+  display: flex;
+}
+.top-left {
+  height: 100%;
+  width: 70%;
+  display: flex;
+}
+.top-right {
+  height: 100%;
+  width: 30%;
+  display: flex;
+}
+.bottom-left {
+  height: 100%;
+  width: 80%;
+  display: block;
+}
+.bottom-right {
+  height: 100%;
+  width: 20%;
+  display: flex;
+}
+.row-top {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.row-bottom {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.box {
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+.box2 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+.albumcov {
+  height: 50%;
+  width: 100%;
+}
+
+/* control your content */
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+img2 {
+  max-height: 100%;
+  max-width: 100%;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+p {
+  color: rgb(0, 0, 0);
+  font-size: 6vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: auto;
+}
+h2 {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Console", "Courier New", monospace;
+  word-wrap: break-word;
+  word-break: break-word;
+  margin: auto;
+}
+.album {
+  margin: 5px;
+  width: calc(100% / 2);
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  user-select: none;
+}
+.album2 {
+  margin: 5px;
+  width: calc(100% / 2);
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  user-select: none;
+}
+/* add effects on click (UX) */
+.fly-forward {
+  transform: translate(165px, 0);
+  transition: transform 2s ease;
+}
+.translucent {
+  opacity: 0.5;
+}
+.disappear {
+  display: none;
+}
+.fade-text {
+  opacity: 1; /* visible by default */
+  transition: opacity 0.5s ease; /* smooth fade for hover start/end */
+}
+
+/* Trigger animation only on hover */
+.fade-text:hover {
+  cursor: wait;
+  animation: fadeInOut 4s infinite; /* fade in/out while hovered */
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* colors */
+/* colors */
+.green {
+  background-color: #008d24;
+}
+.blue {
+  background-color: #0b69c0;
+}
+.purple {
+  background-color: #3a246d;
+}
+.red {
+  background-color: #ca1b22;
+}
+.orange {
+  opacity: 100%;
+}
+.black {
+  background-color: #000000;
+}
+.white {
+  background-color: #ffffff;
+  opacity: 50%;
+}
+.light-grey {
+  background-color: #a9a9a9;
+}
+.dark-grey {
+  background-color: #707070;
+}
+.pink {
+  background-color: #fa1f8d;
+}
+img:hover {
+  cursor: pointer;
+  border: 4px inset cornsilk;
+  transform: scale(1.04);
+}
+img:active {
+  filter: drop-shadow(0px 0px 3px);
+  transform: scale(0.98);
+}
+@media only screen and (max-width: 700px) {
+  .bottom {
+    display: block;
+
+    .bottom-left {
+      height: 70%;
+      width: 100%;
+
+      .row-top {
+        height: 50%;
+        width: 100%;
+
+        .row-bottom {
+          height: 50%;
+          width: 100%;
+          display: none;
+
+          .box2 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .bottom-right {
+    height: 30%;
+    width: 100%;
+  }
+}
