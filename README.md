@@ -38,7 +38,7 @@ This project followed a structured 10-phase iterative development process docume
 
 ## View the Project
 
-Live Demo: [Add your GitHub Pages or hosted link here]  
+Live Demo: [[Add your GitHub Pages or hosted link here](https://github.com/tuneentheusiast2009/JacksRecordShop/tree/main)]  
 GitHub Repository: [Add your repo link here]
 
 ---
