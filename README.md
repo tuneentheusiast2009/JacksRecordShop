@@ -3,7 +3,7 @@ A responsive, interactive music discovery website built with vanilla HTML, CSS, 
 
 ## Features
 
-- **Interactive Song Display**: Click on album covers to play/pause song previews and view song details.
+- **Interactive Song Display**: Click on album covers to play song previews and click on play button to pause/reset song preview.
 - **Shuffle Function**: Randomizes the displayed songs with a dedicated shuffle button.
 - **Responsive Design**: Adapts layout for desktop and mobile viewing.
 - **UX-Tested Interface**: Iteratively refined based on feedback from multiple users to improve visual clarity and interaction.
